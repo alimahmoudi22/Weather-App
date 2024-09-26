@@ -9,18 +9,21 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-image: url(/img/marek-piwnicki-JuXSfDkqTGo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .card{
     width: 40rem;
-    /* height: 62rem; */
+    height: 69rem;
     border-radius: 1.6rem;
     padding: 2rem;
-    /* background-color: rgba( 255, 255, 255, 0.1); */
+    background-color: rgba( 255, 255, 255, 0.1);
     backdrop-filter: blur(3rem);
     border: 2px solid rgba(255, 255, 255, 0.2);
     overflow: hidden;
-    background-color: aquamarine;
 }
 .mainCard{
     display: flex;
@@ -96,7 +99,7 @@ body{
 
 /* ** title ** */
 .title{
-    margin-top: 2rem;
+    margin-top: 3rem;
     text-align: center;
 }
 .title__city{
@@ -124,7 +127,7 @@ body{
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 5.6rem;
 }
 .humidity{
     display: flex;
@@ -162,3 +165,5 @@ body{
 .wind__info h5{
     margin-bottom: .7rem;
 }
+
+
