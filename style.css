@@ -28,3 +28,44 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.searchBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5.5rem;
+    position: relative;
+}
+.searchBox_input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 1.2rem;
+    background: transparent;
+    padding-left: 6rem;
+    color: #000;
+    font-size: 2rem;
+    font-weight: bolder;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+}
+.searchBox_input::placeholder{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.search_png{
+    position: absolute;
+    width: 3rem;    
+    height: 3rem;
+    right: 1.4rem;
+    cursor: pointer;
+}
+.location_png{
+    position: absolute;
+    width: 3.5rem;    
+    height: 3.5rem;
+    left: 1.4rem;
+}
