@@ -1,0 +1,30 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    width: 40rem;
+    height: 62rem;
+    border-radius: 1.6rem;
+    padding: 2rem;
+    /* background-color: rgba( 255, 255, 255, 0.1); */
+    backdrop-filter: blur(3rem);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    background-color: aquamarine;
+}
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
