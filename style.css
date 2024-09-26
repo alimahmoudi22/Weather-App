@@ -13,7 +13,7 @@ body{
 
 .card{
     width: 40rem;
-    height: 62rem;
+    /* height: 62rem; */
     border-radius: 1.6rem;
     padding: 2rem;
     /* background-color: rgba( 255, 255, 255, 0.1); */
@@ -29,7 +29,12 @@ body{
     align-items: center;
 }
 
-
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* ** searchBox** */
 .searchBox{
     width: 100%;
@@ -110,4 +115,50 @@ body{
     color: #FFF;
     font-size: 2rem;
     font-weight: bold;
+}
+
+
+/* ** infos ** */
+.infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5rem;
+}
+.humidity{
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+.humidity__png{
+    width: 6rem;    
+    height: 6rem;
+    margin-right: 1rem;
+}
+.humidity__info{
+    font-size: 1.8rem;
+    color: #FFF;
+    font-weight: bold;
+}
+.humidity__info h5{
+    margin-bottom: .7rem;
+    font-size: 1.4;
+}
+.wind{
+    display: flex;
+    align-items: center;
+}
+.wind__png{
+    width: 6rem;    
+    height: 6rem;
+    margin-right: 1rem;
+}
+.wind__info{
+    font-size: 1.8rem;
+    color: #FFF;
+    font-weight: bold;
+}
+.wind__info h5{
+    margin-bottom: .7rem;
 }
