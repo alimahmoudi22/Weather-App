@@ -20,6 +20,7 @@ function fetchHandler(){
     .then((data) => {
         domHandler(data);
     });
+    searchBox_input.value = "";
 }
 
 function domHandler(fullData){
@@ -58,3 +59,8 @@ function domHandler(fullData){
 }
 
 search_png.addEventListener("click",fetchHandler);
+searchBox_input.addEventListener("keydown",(event) => {
+    if(event.key == "Enter"){
+        fetchHandler();
+    };
+})
