@@ -24,7 +24,7 @@ body{
     backdrop-filter: blur(3rem);
     border: 2px solid rgba(255, 255, 255, 0.2);
     overflow: hidden;
-    transition: all 200ms ease-in;
+    transition: all 350ms ease-in;
 }
 .mainCard{
     display: flex;
@@ -166,13 +166,27 @@ body{
 .wind__info h5{
     margin-bottom: .7rem;
 }
-
-
+.failed{
+    width: 100%;
+    margin-top: 12rem;
+    display: none;
+}
+.failed__png{
+    width: 100%;
+    height: 100%;
+}
+.failed__title{
+    font-size: 4rem;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6rem;
+}
 
 .card{
     height: 5.4rem;
 }
 
 .information{
-    visibility: hidden;
+    display: none;
 }
