@@ -52,13 +52,13 @@ function updateWeatherUI(data) {
     // Set appropriate weather image
     const weatherCondition = data.weather[0].main;
     const weatherIcons = {
-        Clouds: "img/cloud.png",
-        Clear: "img/sun.png",
-        Snow: "img/snow.png",
-        Mist: "img/mist.png",
-        Rain: "img/rain.png",
-        Haze: "img/haze.png",
-        Wind: "img/wind.png"
+        Clouds:"./img/cloud.png",
+        Clear: "./img/sun.png",
+        Snow:  "./img/snow.png",
+        Mist:  "./img/mist.png",
+        Rain:  "./img/rain.png",
+        Haze:  "./img/haze.png",
+        Wind:  "./img/wind.png"
     };
 
     mainPicture.src = weatherIcons[weatherCondition] || "/img/rain.png";
